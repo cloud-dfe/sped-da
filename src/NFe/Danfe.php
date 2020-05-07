@@ -3372,7 +3372,7 @@ class Danfe extends DaCommon
         $texto = "Impresso em ". date('d/m/Y') . " as " . date('H:i:s')
             . '  ' . $this->creditos;
         $this->pdf->textBox($x, $y, $w, 0, $texto, $aFont, 'T', 'L', false);
-        $texto = "Powered by NFePHP®";
+        $texto = "";
         $this->pdf->textBox($x, $y, $w, 0, $texto, $aFont, 'T', 'R', false, '');
     }
 
